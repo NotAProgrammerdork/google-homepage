@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+header {
+    display: flex;
+    background-color: rgb(242, 242, 242);
+    border: 2px solid rgb(240, 240, 240);
+}
+
+header img#logo {
+    width: 100px;
+    height: auto;
+    margin: 10px 25px 10px 5px;
+}
+
+div#schbr, form {
+    width: 100%;
+    margin-top: 10px;
+    display: inherit;
+}
+
+div#schbr form input[type='text'] {
+    height: 32px;
+    width: 50%;
+    padding-left: 12px;
+    border: 1px solid rgba(125, 125, 125, 0.3);
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+    margin-right: 0;
+}
+
+div#schbr form input[type='text']:focus {
+    outline: none;
+}
+
+div#schbr form button[type='submit'] {
+    height: 32px;
+    margin-left: 0;
+    border-radius: 0 2px 2px 0;
+    background-color: rgb(60, 134, 245);
+    border: 1px solid rgb(127, 162, 205);
+    color: white;
+    font-weight: bold;
+}
+
+button[type='submit'] img {
+    height: 25px;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    margin-left: 115px;
+}
+
+nav div.nv {
+    padding: 27px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(100, 100, 100);
+}
+
+hr {
+    margin-top: 0;
+    border-top: 0.6px solid rgba(125, 125, 125, 0.3);
+}
+
+div#rsts {
+    margin-left: 140px;
+}
+
+div#rsts p#grst {
+    font-size: 13px;
+}
+
+div#main {
+    margin-left: 140px;
+}
+
+div#main h1 {
+    margin-bottom: 2px;
+}
+
+div#main h1 a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(3, 3, 189);
+}
+
+div#main p {
+    margin-top: 0;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+div#main p a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+}
+
+strong {
+    color: rgb(43, 107, 0);
+}
