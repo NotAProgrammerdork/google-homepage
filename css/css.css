@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+    font-family: Arial;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.nv {
+    margin: 15px 20px 0 0;
+}
+
+div.nv a {
+    color: rgb(65, 64, 64);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+div.nv a#sgn {
+    margin-right: 10px;
+    padding: 7px 12px;
+    background-color: rgb(60, 134, 245);
+    border: 1px solid rgb(127, 162, 205);
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+div.nv div#grdd {
+    display: grid;
+    grid-template: repeat(3, 4px) / repeat(3, 4px);
+    grid-gap: 2px;
+}
+
+div#grdd div.lmn {
+    background-color: rgb(65, 64, 64);
+}
+
+div#main {
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+
+img#logo {
+    width: 250px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+div#main input {
+    height: 35px;
+    width: 540px;
+    padding-left: 12px;
+    border: 1px solid rgba(125, 125, 125, 0.3);
+    border-radius: 2px;
+}
+
+div#main input:focus {
+    box-shadow: 0 1px 3px 0 rgb(170, 170, 170);
+    outline: none;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    border-top: 1px solid rgb(240, 240, 240);
+    background-color: rgb(242, 242, 242);
+}
+
+footer div {
+    padding: 7px 12px;
+}
+
+footer div#lft{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer div#rgt {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer a {
+    color: rgb(65, 64, 64);
+    font-size: 13px;
+    text-decoration: none;
+}
